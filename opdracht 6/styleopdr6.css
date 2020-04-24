@@ -1,0 +1,45 @@
+body{
+    font-size: 100%; 
+    font-family:Verdana, Geneva, sans-serif;
+}
+#container{
+    width: 875px;
+    max-width: 875px;
+    margin: 10px auto;
+}
+header{
+    background-color: royalblue;
+    height: 75px;
+    width: 875px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+nav{
+    background-color: skyblue;
+    height: 300px;
+    width: 160px;
+    
+    padding-top: 20px;
+}
+article{
+    width: 715px;
+    height: 280px;
+    padding: 20px;
+    border-left: solid;
+    margin-left: 160px;
+    margin-top: -320px;
+}
+footer{
+    background-color: royalblue;
+    height: 75px;
+    width: 875px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+ul li{
+    color: red;
+    list-style-type: none;
+ 
+}

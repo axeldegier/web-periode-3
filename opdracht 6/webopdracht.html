@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="styleresponive.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+<header>
+<h2>Titel van je Website</h2>
+</header>
+<nav>
+    <ul>
+        <li>
+    Link 1
+        </li>
+        <li>
+    Link 2
+        </li>
+        <li>
+    Link 3
+        </li>
+    </ul>
+
+</nav>
+<article>
+
+</article>
+
+<footer>
+  <h4> Copyright &copy; 2020 Axel </h4> 
+</footer>
+    </div> 
+</body>
+<script>
+    window.onresize = myfunction();
+    window.onload = myfunction();
+    function myfunction(){
+        
+        var article = document.getElementsByTagName('article')[0].offsetHeight;
+        document.getElementsByTagName('nav')[0].style.height=article + 'px';
+        
+    }
+</script>
+</html>
